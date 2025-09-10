@@ -42,4 +42,4 @@ jobs:
           script: |
             docker stop movimentacao
             docker rm --force movimentacao
-            docker run -d -p 8081:5000 --name movimentacao cynthiayasutake/movimentacao-ci:${{ github.sha }} |
+            docker run -d -p 8081:5000 --name movimentacao cynthiayasutake/movimentacao-ci:${{ github.sha }} 
